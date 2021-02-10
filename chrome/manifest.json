@@ -1,0 +1,16 @@
+{
+    "name": "Twitter Share",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "You can share the page you are looking at to Twitter.",
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ],
+    "background": {
+        "scripts": [
+            "js/event.js"
+        ],
+        "persistent": false
+    }
+}
